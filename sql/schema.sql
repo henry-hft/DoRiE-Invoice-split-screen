@@ -33,6 +33,6 @@ CREATE TABLE `events` (
 				`duration` varchar(11) NOT NULL
   				);
 				
-INSERT INTO `products` (`id`, `name`, `description`, `price`, `stock`, `available`) VALUES
-				(1, 'Drink', 'Cola 0,33l', '2.30', 100, 1),
-				(2, 'Snack', 'Salzstangen', '1.10', 100, 1);
+INSERT INTO `products` (`id`, `name`, `description`, `image`, `price`, `stock`, `available`) VALUES
+				(1, 'Drink', 'Cola 0,33l', 'drink.png', '2.30', 100, 1),
+				(2, 'Snack', 'Salzstangen', 'snack.png', '1.10', 100, 1);
