@@ -19,6 +19,7 @@ CREATE TABLE `products` (
 				`id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 				`name` varchar(255) NOT NULL,
 				`description` varchar(255) NOT NULL,
+				`image` varchar(255) NOT NULL,
 				`price` decimal(11,2) NOT NULL,
 				`stock` int(11) NOT NULL,
 				`available` int(1) NOT NULL DEFAULT 1
